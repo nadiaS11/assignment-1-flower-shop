@@ -69,17 +69,18 @@
     font-size: 20px;
 }
 .feature-content{
-    margin-top: 150px;
-    text-align: center;
+    margin-top: 110px;
+    margin-bottom: 50px;
+    text-align: center;    
 }
-.feature-title{
+.feature-title, .deal-title{
     color: #272727;
     text-align: center;
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
 }
-.feature-description{
+.feature-description, .deal-description{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
@@ -141,3 +142,17 @@ padding-top: 32px;
 main>div{
     height: 100vh;
 }
+.deal-container{
+    width: 100%;
+    height: 620px;
+    margin:auto;
+    background-color: rgba(229, 84, 115, 0.05);;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 180px;
+}
+.deal-details{
+    text-align: center;
+}
+
