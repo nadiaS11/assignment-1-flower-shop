@@ -88,3 +88,56 @@
     padding-top: 18px;
     padding-bottom: 20px;
 }
+.flowers-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 70%;
+    margin:auto;
+    gap: 24px;
+}
+.flower-containers div{
+    margin: auto;
+    width: 450px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+
+}
+.flower-1{
+    margin-top: 110px;
+    
+    
+}
+.flower-2{
+    margin-top: 110px;
+    margin-left: 50px;
+    
+}
+.flower-3{
+    margin-top: 70px;
+    margin-left: 50px;
+    
+}
+
+.flower-containers h3{
+    color: #272727;
+/* text-align: center; */
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+text-decoration-line: underline;
+padding-top: 32px;
+}
+.pink-bg-color{
+    background: rgba(167, 33, 98, 0.15);
+}
+.sky-bg-color{
+    background: rgba(5, 151, 160, 0.15);
+}
+.mint-bg-color{
+    background: rgba(71, 125, 17, 0.15);
+}
+main>div{
+    height: 100vh;
+}
